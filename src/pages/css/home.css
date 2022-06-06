@@ -1,0 +1,41 @@
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img{
+    background: url("../images/background.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
+}
+.banner .content{
+    position: relative;
+    max-width: 750px;
+    text-align: center;
+}
+.banner .content h1{
+    color: #fff;
+    font-size: 40px;
+}
+.banner .content h1 span{
+    color: yellow;
+    font-size: 60px;
+}
+.banner .content h2{
+    color: #fff;
+    font-size: 35px;
+}
+.banner .content p{
+    color: #fff;
+    font-size: 18px;
+}
