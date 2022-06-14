@@ -6,18 +6,18 @@
     overflow: hidden;
 }
 .packages .heading{
-    padding-top: 150px;
+    padding-top: 70px;
     margin-bottom: 0;
 }
-.cards{
+.packages .cards{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 60px;
+    margin-top: 45px;
 }
-.card {
+.packages .card {
     display: grid;
     grid-template-columns: 300px;
     grid-template-rows: 210px 210px 80px;
@@ -31,39 +31,39 @@
     cursor: pointer;
     margin:30px;
 }
-.card-image{
+.packages .card-image{
     grid-area: image;
     background: url("../images/langtang.jpg");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
 }
-.card-image.card2 {
+.packages .card-image.card2 {
     background: url("../images/rafting.jpg");
     background-size: cover;
 }
-.card-image.card3 {
+.packages .card-image.card3 {
     background: url("../images/dolpa.jpg");
     background-size: cover;
 }
-.card-text{
+.packages .card-text{
     grid-area: text;
     margin: 25px;
 }
-.card-text .date {
+.packages .card-text .date {
     color: rgb(179, 16, 16);
     font-size:13px;
 }
-.card-text p {
+.packages .card-text p {
     color: grey;
     font-size:15px;
     font-weight: 300;
 }
-.card-text h2 {
+.packages .card-text h2 {
     margin-top:0px;
     font-size:28px;
 }
-.card-stats {
+.packages .card-stats {
     grid-area: stats; 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -80,23 +80,23 @@
     flex-direction: column;
     color: white;
 }
-.card-stats .border {
+.packages .card-stats .border {
     border-left: 1px solid rgb(105, 153, 109);
     border-right: 1px solid rgb(105, 153, 109);
 }
-.card-stats .value{
+.packages .card-stats .value{
     font-size:22px;
     font-weight: 500;
 }
-.card-stats .value sup{
+.packages .card-stats .value sup{
     font-size:12px;
 }
-.card-stats .type{
+.packages .card-stats .type{
     font-size:11px;
     font-weight: 300;
     text-transform: uppercase;
 }
-.card:hover {
+.packages .card:hover {
     transform: scale(1.15);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }

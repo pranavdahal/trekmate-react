@@ -1,6 +1,6 @@
 .about{
     overflow: hidden;
-    position: relative;
+    /* position: relative; */
     background: black;
     width: 100%;
     display: flex;
@@ -9,6 +9,7 @@
     background: black;
     padding: 100px 100px 50px;
     width: 50%;
+    padding-bottom: 19.8%;
 }
 .heading{
     color: #fff;
